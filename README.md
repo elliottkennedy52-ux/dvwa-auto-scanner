@@ -1,3 +1,5 @@
+[![Python CI](https://github.com/elliottkennedy52-ux/dvwa-auto-scanner/actions/workflows/python-ci.yml/badge.svg)](https://github.com/elliottkennedy52-ux/dvwa-auto-scanner/actions/workflows/python-ci.yml)
+
 # DVWA Automated Lab Security Scanner
 
 A Python CLI wrapper that orchestrates `nmap`, `nikto`, and `sqlmap` for authorized local security testing and remediation validation against Damn Vulnerable Web Application (DVWA) lab environments.
