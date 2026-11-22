@@ -39,7 +39,7 @@ def run_command(command: list[str], log_file: Path) -> None:
             msg = "[!] Command timed out after 300 seconds.\n"
             print(msg.strip())
             f.write(msg)
-        except Exception as exc:
+        except OSError as exc:
             msg = f"[!] Execution error: {exc}\n"
             print(msg.strip())
             f.write(msg)
